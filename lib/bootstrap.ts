@@ -1,3 +1,5 @@
+console.log("Bootstraping ...");
+
 require("./common/bootstrap");
 $injector.require("logger", "./common/logger");
 $injector.require("config", "./config");
